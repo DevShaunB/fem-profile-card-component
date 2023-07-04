@@ -4,6 +4,8 @@
   --clr-blue-600: 229 23% 23%; /* Very dark desaturated blue */
   --clr-gray-400: 0 0% 59%; /* Dark gray */
 
+  --ff-sans: 'Kumbh Sans', sans-serif;
+
   --fw-regular: 400;
   --fw-bold: 700;
 }
@@ -84,4 +86,9 @@ select {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* STYLES */
+body {
+  font-family: var(--ff-sans);
 }

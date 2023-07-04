@@ -1,3 +1,13 @@
+:root {
+  --clr-cyan-400: 185 75% 39%; /* Dark cyan */
+  --clr-blue-400: 227 10% 46%; /* Dark grayish blue */
+  --clr-blue-600: 229 23% 23%; /* Very dark desaturated blue */
+  --clr-gray-400: 0 0% 59%; /* Dark gray */
+
+  --fw-regular: 400;
+  --fw-bold: 700;
+}
+
 /* RESET */
 /* https://andy-bell.co.uk/a-modern-css-reset/ */
 

@@ -1,31 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  <link rel="stylesheet" href="style.css">
-  
-  <title>Frontend Mentor | Profile card component</title>
-</head>
-<body>
-  Victor Crest
-  26
-  London
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  80K
-  Followers
+    <link rel="stylesheet" href="style.css" />
 
-  803K
-  Likes
-
-  1.4K
-  Photos
-</body>
+    <title>Frontend Mentor | Profile card component</title>
+  </head>
+  <body>
+    <main>
+      <article class="profile-card">
+        <div class="profile-card__pattern-wrapper">
+          <img
+            src="./images/bg-pattern-card.svg"
+            alt=""
+            class="profile-card__pattern-img"
+          />
+        </div>
+        <section class="profile-card__content">
+          <div class="profile-card__user-img-wrapper">
+            <img
+              src="./images/image-victor.jpg"
+              alt="Victor"
+              class="profile-card__user-img"
+            />
+          </div>
+          <div class="profile-card__user-info">
+            <h1 class="profile-card__user-name">Victor Crest</h1>
+            <p class="profile-card__user-age">
+              <span class="sr-only">Age </span>26
+            </p>
+          </div>
+          <p class="profile-card__user-location">London</p>
+          <hr />
+          <div class="profile-card__stats">
+            <p class="profile-card__stats-followers">
+              <span class="profile-card__stats-value">80K</span>
+              <span class="profile-card__stats-title">Followers</span>
+            </p>
+            <p class="profile-card__stats-likes">
+              <span class="profile-card__stats-value">803K</span>
+              <span class="profile-card__stats-title">Likes</span>
+            </p>
+            <p class="profile-card__stats-photos">
+              <span class="profile-card__stats-value">1.4K</span>
+              <span class="profile-card__stats-title">Photos</span>
+            </p>
+          </div>
+        </section>
+      </article>
+    </main>
+  </body>
 </html>

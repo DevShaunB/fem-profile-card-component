@@ -151,3 +151,39 @@ main::after {
   overflow: hidden;
   box-shadow: 0 1em 1em hsla(0 0% 0% / 0.1);
 }
+
+hr {
+  height: 1px;
+  margin: 0;
+  background-color: hsl(var(--clr-gray-400) / 0.25);
+  border: none;
+}
+
+.profile-card__stats {
+  padding: 1.5em 3.4375em 1.5em 2.5625em;
+}
+
+.profile-card__stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile-card__stats > * {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card__stats-value {
+  font-size: 1.125rem;
+  color: hsl(var(--clr-blue-600));
+  font-weight: var(--fw-bold);
+}
+
+.profile-card__stats-title {
+  font-size: 0.625rem;
+  color: hsl(var(--clr-blue-400));
+  letter-spacing: 0.16em;
+}

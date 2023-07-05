@@ -3,6 +3,7 @@
   --clr-blue-400: 227 10% 46%; /* Dark grayish blue */
   --clr-blue-600: 229 23% 23%; /* Very dark desaturated blue */
   --clr-gray-400: 0 0% 59%; /* Dark gray */
+  --clr-white: 0 0% 100%;
 
   --ff-sans: 'Kumbh Sans', sans-serif;
 
@@ -115,6 +116,10 @@ main {
   background-color: hsl(var(--clr-cyan-400));
   z-index: -1;
   overflow: hidden;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 main::before,
@@ -137,4 +142,12 @@ main::after {
   top: 100%;
   left: 100%;
   background: url('./images/bg-pattern-bottom.svg') no-repeat top left;
+}
+
+.profile-card {
+  max-width: 20.375em;
+  background-color: hsl(var(--clr-white));
+  border-radius: 0.875em;
+  overflow: hidden;
+  box-shadow: 0 1em 1em hsla(0 0% 0% / 0.1);
 }

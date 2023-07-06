@@ -169,6 +169,12 @@ main::after {
   background: url('./images/bg-pattern-bottom.svg') no-repeat top left / cover;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
 .profile-card {
   max-width: 20.375em;
   border-radius: 0.875em;

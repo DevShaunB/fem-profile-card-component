@@ -24,7 +24,7 @@
     <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <main>
+    <main class="flex flex-center">
       <article class="profile-card">
         <div class="profile-card__pattern-wrapper">
           <img
@@ -41,7 +41,7 @@
               class="profile-card__user-img"
             />
           </div>
-          <div class="profile-card__user-info">
+          <div class="profile-card__user-info flex flex-center">
             <h1 class="profile-card__user-name">Victor Crest</h1>
             <p class="profile-card__user-age">
               <span class="sr-only">Age </span>26
@@ -49,16 +49,16 @@
           </div>
           <p class="profile-card__user-location">London</p>
           <hr />
-          <div class="profile-card__stats">
-            <p class="profile-card__stats-followers">
+          <div class="profile-card__stats flex">
+            <p class="profile-card__stats-followers flex flex-col flex-center">
               <span class="profile-card__stats-value">80K</span>
               <span class="profile-card__stats-title">Followers</span>
             </p>
-            <p class="profile-card__stats-likes">
+            <p class="profile-card__stats-likes flex flex-col flex-center">
               <span class="profile-card__stats-value">803K</span>
               <span class="profile-card__stats-title">Likes</span>
             </p>
-            <p class="profile-card__stats-photos">
+            <p class="profile-card__stats-photos flex flex-col flex-center">
               <span class="profile-card__stats-value">1.4K</span>
               <span class="profile-card__stats-title">Photos</span>
             </p>

@@ -33,6 +33,8 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
+- Solution URL: [https://www.frontendmentor.io/solutions/profile-card-component-with-flexbox-4akI1GuwqV](https://www.frontendmentor.io/solutions/profile-card-component-with-flexbox-4akI1GuwqV)
+
 - Live Site URL: [https://devshaunb.github.io/fem-profile-card-component/](https://devshaunb.github.io/fem-profile-card-component/)
 
 ## Reference

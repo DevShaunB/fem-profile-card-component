@@ -116,6 +116,7 @@ main {
   background-color: hsl(var(--clr-cyan-400));
   z-index: 0;
   overflow: hidden;
+  padding: 1.5625em;
 
   display: flex;
   align-items: center;
@@ -202,13 +203,13 @@ hr {
 }
 
 .profile-card__stats {
-  padding: 1.5em 3.4375em 1.5em 2.5625em;
-}
-
-.profile-card__stats {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
+
+  padding: 1.5em 3.4375em 1.5em 2.5625em;
+  gap: 1em;
 }
 
 .profile-card__stats > * {
@@ -230,9 +231,23 @@ hr {
   letter-spacing: 0.16em;
 }
 
+@media screen and (min-width: 20em) {
+  .profile-card__stats {
+    flex-direction: row;
+  }
+}
+
 @media screen and (min-width: 40em) {
   main::before,
   main::after {
     background-size: auto;
+  }
+
+  .profile-card {
+    max-width: 21.875em;
+  }
+
+  .profile-card__stats {
+    padding-left: 3em;
   }
 }

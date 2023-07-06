@@ -114,7 +114,7 @@ main {
   min-height: 100vh;
   position: relative;
   background-color: hsl(var(--clr-cyan-400));
-  z-index: -1;
+  z-index: 0;
   overflow: hidden;
 
   display: flex;

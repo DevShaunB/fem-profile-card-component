@@ -104,6 +104,22 @@ select {
   justify-content: center;
 }
 
+.bg-blue-400 {
+  background-color: hsl(var(--clr-cyan-400));
+}
+
+.bg-white {
+  background-color: hsl(var(--clr-white));
+}
+
+.text-blue-400 {
+  color: hsl(var(--clr-blue-400));
+}
+
+.text-blue-600 {
+  color: hsl(var(--clr-blue-600));
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -126,7 +142,6 @@ body {
 main {
   min-height: 100vh;
   position: relative;
-  background-color: hsl(var(--clr-cyan-400));
   z-index: 0;
   overflow: hidden;
   padding: 1.5625em;
@@ -156,7 +171,6 @@ main::after {
 
 .profile-card {
   max-width: 20.375em;
-  background-color: hsl(var(--clr-white));
   border-radius: 0.875em;
   overflow: hidden;
   box-shadow: 0 1em 1em hsla(0 0% 0% / 0.1);
@@ -188,16 +202,10 @@ main::after {
 .profile-card__user-name {
   font-size: inherit;
   font-weight: var(--fw-bold);
-  color: hsl(var(--clr-blue-600));
-}
-
-.profile-card__user-age {
-  color: hsl(var(--clr-blue-400));
 }
 
 .profile-card__user-location {
   font-size: 0.875rem;
-  color: hsl(var(--clr-blue-400));
   margin-bottom: 1.785em;
 }
 
@@ -219,13 +227,11 @@ hr {
 
 .profile-card__stats-value {
   font-size: 1.125rem;
-  color: hsl(var(--clr-blue-600));
   font-weight: var(--fw-bold);
 }
 
 .profile-card__stats-title {
   font-size: 0.625rem;
-  color: hsl(var(--clr-blue-400));
   letter-spacing: 0.16em;
 }
 

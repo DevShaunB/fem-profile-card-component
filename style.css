@@ -152,6 +152,22 @@ main::after {
   box-shadow: 0 1em 1em hsla(0 0% 0% / 0.1);
 }
 
+.profile-card__content {
+  position: relative;
+}
+
+.profile-card__user-img-wrapper {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-card__user-img {
+  border: 0.3125em solid hsl(var(--clr-white));
+  border-radius: 50%;
+}
+
 hr {
   height: 1px;
   margin: 0;

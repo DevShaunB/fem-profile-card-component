@@ -154,6 +154,7 @@ main::after {
 
 .profile-card__content {
   position: relative;
+  text-align: center;
 }
 
 .profile-card__user-img-wrapper {
@@ -166,6 +167,31 @@ main::after {
 .profile-card__user-img {
   border: 0.3125em solid hsl(var(--clr-white));
   border-radius: 50%;
+}
+
+.profile-card__user-info {
+  font-size: 1.125rem;
+  padding-block: 3.945em 0.5em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+}
+
+.profile-card__user-name {
+  font-size: inherit;
+  font-weight: var(--fw-bold);
+  color: hsl(var(--clr-blue-600));
+}
+
+.profile-card__user-age {
+  color: hsl(var(--clr-blue-400));
+}
+
+.profile-card__user-location {
+  font-size: 0.875rem;
+  color: hsl(var(--clr-blue-400));
+  margin-bottom: 1.785em;
 }
 
 hr {
